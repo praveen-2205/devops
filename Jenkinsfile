@@ -4,9 +4,9 @@ pipeline {
     // Environment variables
     environment {
         // Change these to match your Docker Hub repository details
-        DOCKER_IMAGE = 'devops-frontend'
+        DOCKER_IMAGE = '2023bcs0115-jenkins:latest'
         DOCKER_CREDS_ID = 'dockerhub-credentials' // ID of credentials in Jenkins
-        DOCKER_HUB_USER = 'johnpm12' // Replace with your Docker Hub username
+        DOCKER_HUB_USER = 'praveen2205' // Replace with your Docker Hub username
         TAG = "${env.BUILD_NUMBER}"
     }
 
