@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/praveen-2205/devops-cicd-lab'
+                git branch: 'main', url: 'https://github.com/praveen-2205/devops-cicd-lab.git'
             }
         }
 
